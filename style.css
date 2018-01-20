@@ -1,0 +1,15 @@
+body {
+  background-color: white;
+}
+h1 {
+  color: blue;
+}
+#input {
+  width: 33%;
+}
+#project {
+  vertical-align: middle;
+}
+ul {
+  text-align: left;
+}
