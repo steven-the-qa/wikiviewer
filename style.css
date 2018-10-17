@@ -6,8 +6,8 @@ body {
   width: 100vw;
   background-color: #3CB371;
 }
-form {
-  width: 30%;
+#header {
+  width: 50%;
 }
 #input {
   width: 80%;
