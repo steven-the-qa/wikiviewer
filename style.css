@@ -10,5 +10,6 @@ body {
   background-color: #3CB371;
 }
 #input {
-  width: 80%;
+  width: 40vw;
+  margin-top: 20px;
 }
