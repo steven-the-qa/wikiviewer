@@ -1,11 +1,13 @@
 body {
-  background-color: white;
+  background-color: MediumSeaGreen;
+  margin: 0;
 }
 h1 {
   color: blue;
+  margin: 10px 0 10px 0;
 }
 #input {
-  width: 33%;
+  width: 50%;
 }
 #project {
   vertical-align: middle;
@@ -14,5 +16,4 @@ ul {
   border: black 5px solid;
   height: auto;
   max-width: 100%;
-  display: block;
 }
