@@ -10,7 +10,7 @@ var url = "https://en.wikipedia.org/w/api.php?format=json&action=opensearch&sear
      async: false,
      dataType: "json",
      success: function(data){
-       $("ul").html("");
+       $("ul").html("\n\n\n");
        for (i=0; i<data[1].length; i++){
 $("ul").append("<li><a href=" + data[3][i] + "> \n" + data[1][i] + "==>" + data[2][i] + "</a></li>");
        };
