@@ -12,7 +12,7 @@ var url = "https://en.wikipedia.org/w/api.php?format=json&action=opensearch&sear
      success: function(data){
        $("ul").html("\n\n\n");
        for (i=0; i<data[1].length; i++){
-$("ul").append("<li><a href=" + data[3][i] + "> \n" + data[1][i] + "==>" + data[2][i] + "</a></li>");
+$("ul").append("<li><a href=" + data[3][i] + ">" + "<strong>" + data[1][i] + "</strong>" + " - \t</a>" + data[2][i] + "</li>");
        };
      },
      error: function(errorMessage){
