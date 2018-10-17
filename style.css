@@ -16,4 +16,9 @@ ul {
   border: black 5px solid;
   height: auto;
   max-width: 100%;
+  text-decoration: none;
+  text-align: left;
+}
+li {
+  text-align: left;
 }
