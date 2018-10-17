@@ -1,10 +1,7 @@
 body {
-  background-color: MediumSeaGreen;
+  background: linear-gradient(to bottom, white, #3CB371);
+  color: white;
   margin: 0;
-}
-h1 {
-  color: blue;
-  margin: 10px 0 10px 0;
 }
 #input {
   width: 50%;
